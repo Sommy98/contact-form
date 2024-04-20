@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: lightblue;
   }
   
   header {
@@ -10,14 +10,6 @@ body {
     background-color: blue;
     color: white;
     padding: 20px 0;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
   }
   
   form {
@@ -63,9 +55,17 @@ body {
     width: 100%;
     padding: 20px;
     background-color: white
-  
-  input[type="file"] {
-    margin-bottom: 10px;
+
   }
+
+  input[type="file"] {
+      margin-bottom: 10px;
+    }
+    
   
+  input[type="button"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: green
+  }
   
